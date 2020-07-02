@@ -1,10 +1,15 @@
-body{
+
+html, body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
+}
+
+.wrapper{
+    overflow-x: hidden;
 }
 
 .section{
@@ -451,7 +456,7 @@ footer{
 
     .closeicon{
         font-size: 3rem;
-        margin-left: 74%;
+        margin-left: 78%;
     }
 
     .brand-holder{
@@ -525,7 +530,7 @@ footer{
     }
 
     .droper{
-        margin-left: 40%;
+        margin-left: 46%;
     }
 
     .brand-holder{
@@ -545,7 +550,7 @@ footer{
     }
 
     .closeicon{
-        margin-left: 54%;
+        margin-left: 58%;
     }
 }
 
