@@ -448,13 +448,9 @@ footer{
         font-size: 3rem;
     }
 
-
-    .closenav{
-        text-align: right;
-    }
-
     .closeicon{
         font-size: 3rem;
+        margin-left: 74%;
     }
 
     .brand-holder{
@@ -534,6 +530,10 @@ footer{
 
     body{
         overflow-x: hidden !important;
+    }
+
+    .closeicon{
+        margin-left: 54%;
     }
 }
 
