@@ -526,5 +526,9 @@ footer{
     .question p{
         font-size: 0.7rem;
     }
+
+    .section{
+        padding-top: 19%;
+    }
 }
 
