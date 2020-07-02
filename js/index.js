@@ -110,4 +110,18 @@ $(document).ready(function(){
     headingChange(".allergy");
     headingreset(".allergy");
 
+    // for faq section to change arrow
+    $(".collapse-link").click(function(){
+        if ($(".arrow").hasClass("uil-angle-down")) { // If clicked
+            $(".arrow").removeClass("uil-angle-down");
+            $(".arrow").addClass("uil-angle-up");
+        }else{ // If clicked
+            if ($(".arrow").hasClass("uil-angle-up")){
+                $(".arrow").removeClass("uil-angle-up");
+                $(".arrow").addClass("uil-angle-down");
+            }
+            
+        }
+    });
+
 })
