@@ -113,7 +113,7 @@ nav{
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.836);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     transition: 0.7s;
 }
 
@@ -355,6 +355,7 @@ nav{
     border: 1px solid #0052FF;
     margin-bottom: 8% !important;
     padding: 6% 2% !important;
+    height: 13%;
 }
 
 
@@ -524,11 +525,15 @@ footer{
     }
 
     .question p{
-        font-size: 0.7rem;
+        font-size: 0.85rem;
     }
 
     .section{
         padding-top: 19%;
+    }
+
+    body{
+        overflow-x: hidden !important;
     }
 }
 
