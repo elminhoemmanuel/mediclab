@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     font-family: 'Nunito', sans-serif;
     font-size: 1em;
 }
@@ -407,14 +407,17 @@ footer{
     }
 }
 
+@media  only screen and (min-width:1250px){
+    .question p{
+        font-size: 1.7rem;
+    }
+}
+
 @media  only screen and (min-width:917px){
     .nav-sm-dropdown{
         display: none !important;
     }
 
-    .question p{
-        font-size: 1.5rem;
-    }
 
 }
 
@@ -461,7 +464,9 @@ footer{
         height: 550px;
     }
 
-
+    body{
+        overflow-x: hidden !important;
+    }
     
 }
 
@@ -474,7 +479,7 @@ footer{
     }
     
     .section{
-        padding-top: 9%;
+        padding-top: 13%;
     }
   
     .hero-div{
@@ -511,11 +516,15 @@ footer{
 
 @media  only screen and (max-width:507px){
     .droper{
-        margin-left: 55%;
+        margin-left: 48%;
     }
 
     .brand-holder{
         padding-top: 5%;
+    }
+
+    .question p{
+        font-size: 0.7rem;
     }
 }
 

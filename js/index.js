@@ -11,6 +11,7 @@ $(document).ready(function(){
 
     $(".droper").click(openNav);
     $(".closenav").click(closeNav);
+    $(".nav-sm-dropdown a").click(closeNav);
 
     // for shadow on scrool under navbars
     var navLarge = $('.nav-lg'); 
