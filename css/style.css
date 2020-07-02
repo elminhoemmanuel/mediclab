@@ -470,6 +470,9 @@ footer{
     body{
         overflow-x: hidden !important;
     }
+    .space{
+        margin-bottom: 9%;
+    }
 
    
     
