@@ -232,6 +232,7 @@ nav{
 
 .question p{
     position: relative;
+    margin-top: 3.5%;
 }
 
 .collapse-link, .collapse-link:hover{
@@ -464,14 +465,20 @@ footer{
     body{
         overflow-x: hidden !important;
     }
+
+   
     
 }
 
-
+@media  only screen and (max-width:917px)and (min-width:768px){
+    .question p{
+        margin-top: 4% !important;
+    }
+}
 
 @media  only screen and (max-width:768px){
     .hero-div h1{
-        font-size: 3.2rem;
+        font-size: 3rem;
         letter-spacing: 0.2rem;
     }
     
@@ -512,6 +519,11 @@ footer{
 }
 
 @media  only screen and (max-width:507px){
+
+    .hero-div h1{
+        font-size: 2.8rem;
+    }
+
     .droper{
         margin-left: 40%;
     }
