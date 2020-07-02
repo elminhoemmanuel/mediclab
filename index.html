@@ -24,6 +24,8 @@
 
         <!-- css stylesheet link -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- AOS link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
         <title>MedicLab</title>
 
@@ -76,7 +78,7 @@
 
         <main>
             <section class="features container-fluid section">
-                <div class="holder row mx-auto">
+                <div class="holder row mx-auto " data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="col-md-4 text-center space">
                         <img src="images/emergency.png" alt="emergency" class="icons">
                         <h3 class="blue">24 Hour Emergency</h3>
@@ -105,7 +107,7 @@
                     <h2>Our Departments</h2>
                     <p class="description">Lmedic medical care specialises in various services for the convenience of the patients</p>
                 </div>
-                <div class="holder row mx-auto row-space">
+                <div class="holder row mx-auto row-space " data-aos="fade-up-left" data-aos-duration="1000">
                     <div class="col-md-3 service-card space">
                         <div class=" text-center service psych">
                             <img src="images/brain-blue.png" alt="emergency" class="icons brain">
@@ -136,7 +138,7 @@
                     </div>
                    
                 </div>
-                <div class="holder row mx-auto row-space">
+                <div class="holder row mx-auto row-space" data-aos="fade-up-right" data-aos-duration="1000">
                     <div class="col-md-3 service-card space">
                         <div class=" text-center service gynacology">
                             <img src="images/gyna-blue.png" alt="emergency" class="icons gyna">
@@ -173,7 +175,7 @@
                 <div class="text-center headers">
                     <h2 class="description">Our Services</h2>
                 </div>
-                <div class="holder row mx-auto">
+                <div class="holder row mx-auto" data-aos="flip-up" data-aos-duration="1000">
                     <div class="col-md-4 treatment-holder space">
                         <div class="treatment text-lef prima">
                             <img src="images/nurse-blue.png" alt="emergency" class="icons nurse">
@@ -224,7 +226,7 @@
                 <div class="text-center headers">
                     <h2 class="description">Frequently Asked Questions</h2>
                 </div>
-                <div class="row holder mx-auto">
+                <div class="row holder mx-auto " data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear">
                     <div class="col-md-6">
                         <div class="faqs-holder">
                             <div class="question appoint">
@@ -295,7 +297,7 @@
                         <h2 class="description">Our Specialists</h2>
                     </div>
 
-                <div class="row holder mx-auto">
+                <div class="row holder mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
                     <div class="col-md-4 space">
                         <div class="specialists-holder">
                             <img src="images/dr.png" alt="doctor" class="dr-img">
@@ -442,7 +444,7 @@
 
             </section>
             <section class="book container-fluid section ">
-                <div class="row holder mx-auto">
+                <div class="row holder mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
                     <div class="col-md-6">
                         <div class="img-holder space">
                             <img src="images/man.png" alt="woman" class="book-img">
@@ -487,7 +489,7 @@
                     <h2>Contact Us</h2>
                     <p class="description">Do not hesitate to contact us.</p>
                 </div>
-                <div class="holder row mx-auto">
+                <div class="holder row mx-auto" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
                     <div class="col-md-4 text-center space">
                         <img src="images/locator.png" alt="location" class="contact-icons">
                         <h5 class="">Our Adress</h5>
@@ -549,6 +551,12 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Aos animation script -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         <script type="text/javascript" src="js/index.js"></script>
 
